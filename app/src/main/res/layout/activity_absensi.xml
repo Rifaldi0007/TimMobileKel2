@@ -29,7 +29,7 @@
     <androidx.appcompat.widget.AppCompatEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Matakuliah"
+        android:hint="Jenis Kelamin"
         android:layout_margin="10dp"
         android:id="@+id/et_matakuliah"/>
 
@@ -43,7 +43,7 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Absensi"
+        android:text="Matakuliah"
         android:layout_margin="10dp"/>
     <RadioGroup
         android:layout_marginRight="10dp"
@@ -59,29 +59,22 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="Hadir" />
+            android:text="Prak1" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/ab_A"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Sakit" />
+            android:text="Prak2" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/ab_L"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Alfa" />
+            android:text="Prak3" />
     </RadioGroup>
-
-    <androidx.appcompat.widget.AppCompatEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Jurusan"
-        android:layout_margin="10dp"
-        android:id="@+id/et_jurusan"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
