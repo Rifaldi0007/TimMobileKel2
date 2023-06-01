@@ -43,7 +43,7 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Matakuliah"
+        android:text="Absensi"
         android:layout_margin="10dp"/>
     <RadioGroup
         android:layout_marginRight="10dp"
@@ -59,21 +59,21 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="Prak1" />
+            android:text="Hadir" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/ab_A"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Prak2" />
+            android:text="Sakit" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/ab_L"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Prak3" />
+            android:text="Alfa" />
     </RadioGroup>
 
     <androidx.appcompat.widget.AppCompatButton
