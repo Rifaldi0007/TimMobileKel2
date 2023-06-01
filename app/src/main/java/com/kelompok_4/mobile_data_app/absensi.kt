@@ -61,7 +61,7 @@ class absensi : AppCompatActivity() {
     }
 
     fun save(tanggal: String,nama: String,npm: String, matakuliah: String, dosen: String, ab: String, jurusan: String){
-        AndroidNetworking.post("http://192.168.100.13/data_api/simpan.php")
+        AndroidNetworking.post("https://ppm-api.gusdya.net/api/mahasiswa")
             .addBodyParameter("tanggal", tanggal)
             .addBodyParameter("nama", nama)
             .addBodyParameter("npm", npm)

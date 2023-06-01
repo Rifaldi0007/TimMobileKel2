@@ -34,7 +34,7 @@ class list_data : AppCompatActivity() {
 
     }
     fun tampil_data (){
-        AndroidNetworking.get("http://192.168.100.13/data_api/list_data.php")
+        AndroidNetworking.get("https://ppm-api.gusdya.net/api/mahasiswa")
             .setPriority(Priority.LOW)
             .build()
             .getAsJSONObject(object : JSONObjectRequestListener {
