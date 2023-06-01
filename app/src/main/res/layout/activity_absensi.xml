@@ -41,7 +41,7 @@
         android:hint="Dosen" />
 
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/et_dosen"
+        android:id="@+id/et_"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
