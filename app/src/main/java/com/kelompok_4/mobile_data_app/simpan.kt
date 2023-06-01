@@ -48,7 +48,7 @@ class simpan : AppCompatActivity() {
             }else{
 
                 //simpan data
-                AndroidNetworking.post("https://192.168.100.13/data_api/simpan.php")
+                AndroidNetworking.post("https://ppm-api.gusdya.net/api/mahasiswa")
                     .addBodyParameter("tanggal", tanggal)
                     .addBodyParameter("nama", nama)
                     .addBodyParameter("nim", nim)
