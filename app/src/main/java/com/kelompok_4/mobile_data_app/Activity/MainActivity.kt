@@ -1,8 +1,9 @@
-package com.kelompok_4.mobile_data_app
+package com.kelompok_4.mobile_data_app.Activity
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.kelompok_4.mobile_data_app.MenuUtama
 import com.kelompok_4.mobile_data_app.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

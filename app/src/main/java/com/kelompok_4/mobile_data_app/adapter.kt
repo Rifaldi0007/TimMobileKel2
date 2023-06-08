@@ -1,19 +1,18 @@
 package com.kelompok_4.mobile_data_app
 
-import android.R
 import android.app.Activity
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Adapter
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
+import com.kelompok_4.mobile_data_app.Model.model
 import com.kelompok_4.mobile_data_app.databinding.OutputDataBinding
 import org.json.JSONObject
 import java.util.ArrayList

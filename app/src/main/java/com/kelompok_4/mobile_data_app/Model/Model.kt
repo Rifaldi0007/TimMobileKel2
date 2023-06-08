@@ -1,4 +1,4 @@
-package com.kelompok_4.mobile_data_app
+package com.kelompok_4.mobile_data_app.Model
 
 class model(
     var id: String,
@@ -9,4 +9,6 @@ class model(
     var dosen: String,
     var absensi: String,
     var jurusan: String
+
+
 )

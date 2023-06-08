@@ -9,6 +9,7 @@ import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
+import com.kelompok_4.mobile_data_app.Model.model
 import com.kelompok_4.mobile_data_app.databinding.ActivityListDataBinding
 import org.json.JSONObject
 
